@@ -1,0 +1,45 @@
+body {
+  max-width: 600px;
+  height: 500px;
+
+}
+/* Header */
+header {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(0deg, rgba(254,254,254,0.12) 13%, #D8D8D8 100%);
+  max-width: 600px;
+  padding-top: 20px;
+}
+header img {
+  width: 20%;
+  margin: 0 auto;
+}
+header h1 {
+ font-family: Roboto-Light;
+ font-size: 33px;
+ color: #333333;
+ letter-spacing: 0;
+ line-height: 40px;
+ font-weight: 100;
+ text-align: center;
+ padding-left: 5px;
+ padding-right: 5px;
+}
+header hr {
+  width: 40%;
+  border: .5px solid #9B9B9B;
+}
+/* Main Body */
+.welcome-text {
+  width: 80%;
+  margin: 0 auto;
+}
+.welcome-text p {
+  font-family: Roboto-Regular;
+  font-size: 16px;
+  color: #333333;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+}
